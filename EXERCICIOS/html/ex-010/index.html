@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../img/favicon.ico" type="image/x-icon">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links extenos</h1>
+    <hr>
+    Pdf da aula <a href="../../PDF-DAS-AULAS/10 - Ligações em toda parte.pdf" target="_blank" rel="external">10 - Ligações em toda parte.pdf</a>
+
+    <h2>Links externos</h2>
+    <p>É possível acessar links externos em um site HTML, basta usarmos o comando &lt;a href=""&gt;&lt;/a&gt;, esse comando é conhecido como âncora. O comando em questão funciona assim, vamos criar um link para o <a href="https://youtube.com">YouTube</a> aqui. Existe um porém aqui. <br>
+    Se deixarmos o link dessa forma &lt;a href="https://youtube.com"&gt;YouTube&lt;/a&gt;, ao clicarmos no link, ele vai nos levar ao site desejado (nesse caso o YouTube). Porém, nota que ele não vai abriir uma nova guia, ou seja, ele vai subtituir a guia do seu site para abrir a o link, ou seja, vovê vai estar em palavras simples, expulsando o possível cliente ou visualizador do seu site, má, existe uma forma de consertar isto, vamos usar o comando &lt;a href="https://youtube.com"<strong> target="_blank" rel="external"</strong>&gt;YouTube&lt;/a&gt;, vejamos um exemplo desse comando aplicado nesse novo link para o <a href="https://youtube.com" target="_blank" rel="external">YouTube</a>, é importante ressaltar que, essa função só é recomendada em links externos, ou seja, quando você vai levar o usuário para outro site, ou blog, ou documento etc... porém, quando o usuário for acessar um link que conste dentro do próprio site, aí nesse caso em questão não utilizamos esse comenado <strong> target="_blank" rel="external"</strong>, é muito importante ficar claro isso.</p>
+
+    <h1>Usando links internos</h1>
+    Essa é a 1º pagina do site, se quiser acessar a 2º pagina, clique <a href="pag2.html">aqui</a>
+
+    <h1>Links para download</h1>
+    <p>Existe um site chamado <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="external">Iana</a>, dentro desse site estão uma variedade de comandos para diversos tipos de documentos para download, é excencial que saibamos qual o comando correto para fazer o download de determinado documento, pois se não, no momento que o usuário clicar no link para download um erro vai ocorrer e o serviço não será concuído, gerando assim desconforto e desapreços por parte do usuário em acessar o seu site. vejamos um exemplo a seguir, iremos fazer um link para baixar uma pasta zip.</p>
+
+    <ol>
+        <li><a href="../../PDF-DAS-AULAS/ZIP do WinRAR.zip" download="ZIP do WinRAR.zip" type="application/zip">Download Zip</a></li>
+    </ol>
+    
+</body>
+</html>
