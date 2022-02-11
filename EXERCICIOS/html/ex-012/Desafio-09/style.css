@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+
+h1, h3, p{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+#video{
+    text-align: center;
+}
+
+#button{
+    text-align: center;
+    
+}
+
+/* atacando index.html*/
+#imagem1{
+    text-align: center;
+}
+#imagem2{
+    text-align: center;
+}
